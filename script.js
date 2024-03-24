@@ -25,10 +25,10 @@ $(document).ready(function(){
     var options = {
         series:[{
             name: 'series1',
-            date: [101, 64,78,191, 42, 109, 100, 230]
+            data: [101, 64,78,191, 42, 109, 100, 230]
         },{
             name:'series2',
-            date:[41, 32, 85, 42, 124, 52, 71, 120]
+            data:[41, 32, 85, 42, 124, 52, 71, 120]
         }],
         chart: {
             height: 300,
